@@ -39,9 +39,9 @@ sock.connect((serverIP,port))
 print("Connecting to facilitator")
 
 
-msg = "1"
-# reading the file
-filename = "file_out/" + f[1]
+msg = "0"
+# reading the
+filename = "file_out/" + f[0]
 file = open(filename,'rb')
 
 #data = file.read(os.stat(filename).st_size)
